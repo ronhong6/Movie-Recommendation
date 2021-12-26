@@ -94,7 +94,7 @@ ui = dashboardPage(
     width = 12,
     tabPanel("Genres", fluidRow(
       box(
-        title = "Step 1: Select your favorite genre",
+        title = "Select your favorite genre",
         status = "info",
         solidHeader = TRUE,
         width = 12,
@@ -126,7 +126,7 @@ ui = dashboardPage(
     ), fluidRow(
       useShinyjs(),
       box(
-        title = "Step 2: Discover movies you might like",
+        title = "Discover movies you might like",
         status = "info",
         solidHeader = TRUE,
         width = 12,
@@ -141,7 +141,7 @@ ui = dashboardPage(
     )),
     tabPanel("Collaborative", fluidRow(
       box(
-        title = "Step 1: Rate as many movies as possible",
+        title = "Rate as many movies as possible",
         status = "info",
         solidHeader = TRUE,
         width = 12,
@@ -150,7 +150,7 @@ ui = dashboardPage(
     ), fluidRow(
       useShinyjs(),
       box(
-        title = "Step 2: Discover movies you might like",
+        title = "Discover movies you might like",
         status = "info",
         solidHeader = TRUE,
         width = 12,
